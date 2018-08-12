@@ -4,29 +4,5 @@
         <members></members>
         <name>0</name>
     </types>
-    <types>
-        <members>CEO</members>
-        <members>CFO</members>
-        <members>COO</members>
-        <members>ChannelSalesTeam</members>
-        <members>Chief_Sales_Officer</members>
-        <members>CustomerSupportInternational</members>
-        <members>CustomerSupportNorthAmerica</members>
-        <members>DirectorChannelSales</members>
-        <members>DirectorDirectSales</members>
-        <members>EasternSalesTeam</members>
-        <members>InstallationRepairServices</members>
-        <members>MarketingTeam</members>
-        <members>SVPCustomerServiceSupport</members>
-        <members>SVPHumanResources</members>
-        <members>SVPSalesMarketing</members>
-        <members>Sales_Strategy_Manager</members>
-        <members>Training_Coordinator</members>
-        <members>VPInternationalSales</members>
-        <members>VPMarketing</members>
-        <members>VPNorthAmericanSales</members>
-        <members>WesternSalesTeam</members>
-        <name>Role</name>
-    </types>
     <version>39.0</version>
 </Package>
