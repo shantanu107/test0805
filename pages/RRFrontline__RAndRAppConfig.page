@@ -1,0 +1,44 @@
+<apex:page controller="RRFrontline.RAndRAppConfigController">
+    <style>
+        body .bPageBlock .pbBody .rAndRBlue .pbSubheader{
+            background-color: #1797C0;
+        }
+       .bPageBlock .detailList .labelCol {width: 30%;}
+    </style>
+
+    <apex:form >
+        <apex:pageBlock title="Rant & Rave App Configuration Settings">
+            <apex:pageMessages />
+            <apex:pageBlockButtons >
+                <apex:commandButton value="Save" action="{!save}"/>
+                <apex:commandButton value="Cancel" action="{!cancel}"/>
+            </apex:pageBlockButtons>
+            <apex:pageBlockSection columns="3">
+                <apex:outputPanel styleClass="rAndRBlue" layout="block">
+                    <apex:pageBlockSection columns="1" showHeader="true" title="Analytics Settings">
+                        <apex:inputField value="{!analyticsSettings.RRFrontline__Main_Agent_Performance_Category__c}"/> 
+                        <apex:inputField value="{!analyticsSettings.RRFrontline__Max_Strengths_To_Show__c}"/>
+                        <apex:inputField value="{!analyticsSettings.RRFrontline__Max_Weaknesses_To_Show__c}"/>
+                        <apex:inputField value="{!analyticsSettings.RRFrontline__Show_Level_1_Feedback_Charts__c}"/>
+                        <apex:inputField value="{!analyticsSettings.RRFrontline__Show_Level_2_Feedback_Charts__c}"/>
+                    </apex:pageBlockSection>
+                </apex:outputPanel>
+                <apex:outputPanel styleClass="rAndRBlue" layout="block">    
+                    <apex:pageBlockSection columns="1" showHeader="true" title="Solicit Credentials">
+                        <apex:inputField style="width: 95%" value="{!systemCredentials.RRFrontline__api_endpoint__c}"/>
+                        <apex:inputField value="{!systemCredentials.RRFrontline__api_username__c}"/>
+                        <apex:inputSecret value="{!systemCredentials.RRFrontline__api_password__c}"/>
+                        <apex:inputField value="{!solicitSettings.RRFrontline__Default_Recipient_Field__c}"/>
+                        <apex:inputField style="width: 85%" value="{!solicitSettings.RRFrontline__Default_Workflow__c}"/>
+                        <apex:inputField value="{!solicitSettings.RRFrontline__Enable_Logging__c}"/>
+                    </apex:pageBlockSection>
+                </apex:outputPanel>
+                <apex:outputPanel styleClass="rAndRBlue" layout="block">
+                    <apex:pageBlockSection columns="1" showHeader="true" title="Feedback Settings">
+                        <apex:inputField value="{!feedbackSettings.RRFrontline__Default_Feedback_Owner__c}"/>
+                    </apex:pageBlockSection>
+                </apex:outputPanel>
+            </apex:pageBlockSection>
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>

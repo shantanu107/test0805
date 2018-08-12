@@ -1,0 +1,3 @@
+<apex:page >
+    <c:AgentLeaderBoardComponent ></c:AgentLeaderBoardComponent>
+</apex:page>

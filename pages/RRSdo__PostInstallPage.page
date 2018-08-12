@@ -1,0 +1,10 @@
+<apex:page showHeader="true" sidebar="true" controller="RRSdo.PostInstallPageController" lightningStylesheets="true">
+	<apex:form >
+        <apex:pageBlock title="RRSDO Data Install Sucessfull">
+        <apex:pageMessages />
+
+        <p>Update Rant and Rave Manager field on Users</p><br></br>
+	        <apex:commandButton action="{!updateUsers}" value="Update Users"/>
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>
