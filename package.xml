@@ -4,11 +4,5 @@
         <members></members>
         <name>0</name>
     </types>
-    <types>
-        <members>Contact_address_change</members>
-        <members>Mars</members>
-        <members>RRSdo__Solicit_Feedback_when_a_Case_is_Closed</members>
-        <name>FlowDefinition</name>
-    </types>
     <version>39.0</version>
 </Package>
