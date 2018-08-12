@@ -4,5 +4,33 @@
         <members></members>
         <name>0</name>
     </types>
+    <types>
+        <members>RRFrontline</members>
+        <members>RRSdo</members>
+        <members>relateiq</members>
+        <members>relateiq</members>
+        <members>relateiq</members>
+        <members>sf_com_apps</members>
+        <members>sf_com_apps</members>
+        <members>sf_com_apps</members>
+        <members>sf_com_apps</members>
+        <members>sf_com_apps</members>
+        <members>sf_com_apps</members>
+        <members>sf_com_apps</members>
+        <members>sf_com_apps</members>
+        <members>sf_com_apps</members>
+        <members>sf_com_apps</members>
+        <members>sf_com_apps</members>
+        <members>sf_com_apps</members>
+        <members>sf_com_apps</members>
+        <members>sf_com_apps</members>
+        <members>sf_com_apps</members>
+        <members>sf_com_apps</members>
+        <members>sf_com_apps</members>
+        <members>th_con_app</members>
+        <members>th_con_app</members>
+        <members>th_con_app</members>
+        <name>InstalledPackage</name>
+    </types>
     <version>39.0</version>
 </Package>
