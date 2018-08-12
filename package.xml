@@ -4,5 +4,26 @@
         <members></members>
         <name>0</name>
     </types>
+    <types>
+        <members>External_Orders</members>
+        <members>RRFrontline__Rant_and_Rave_Frontline</members>
+        <members>Trailblazer</members>
+        <members>standard__AppLauncher</members>
+        <members>standard__Chatter</members>
+        <members>standard__Community</members>
+        <members>standard__Content</members>
+        <members>standard__LightningInstrumentation</members>
+        <members>standard__LightningSales</members>
+        <members>standard__LightningSalesConsole</members>
+        <members>standard__LightningService</members>
+        <members>standard__Marketing</members>
+        <members>standard__Platform</members>
+        <members>standard__Sales</members>
+        <members>standard__Service</members>
+        <members>standard__ServiceConsole</members>
+        <members>standard__Sites</members>
+        <members>th_con_app__Trailhead_Playground</members>
+        <name>CustomApplication</name>
+    </types>
     <version>39.0</version>
 </Package>
