@@ -5,50 +5,13 @@
         <name>0</name>
     </types>
     <types>
-        <members>RRFrontline__AgentLeaderBoardComponent</members>
-        <members>RRFrontline__FrontlineAgentDashboardHeaderComponent</members>
-        <members>RRFrontline__GenericSPAComponent</members>
-        <members>RRFrontline__Level12FeedbackComponent</members>
-        <members>RRFrontline__SupervisorDashboardComponent</members>
-        <members>SiteFooter</members>
-        <members>SiteHeader</members>
-        <members>SiteLogin</members>
-        <members>SitePoweredBy</members>
-        <name>ApexComponent</name>
-    </types>
-    <types>
-        <members>AnswersHome</members>
-        <members>BandwidthExceeded</members>
-        <members>ChangePassword</members>
-        <members>CommunitiesLanding</members>
-        <members>CommunitiesLogin</members>
-        <members>CommunitiesSelfReg</members>
-        <members>CommunitiesSelfRegConfirm</members>
-        <members>CommunitiesTemplate</members>
-        <members>ContactForm</members>
-        <members>Exception</members>
-        <members>FileNotFound</members>
-        <members>ForgotPassword</members>
-        <members>ForgotPasswordConfirm</members>
-        <members>IdeasHome</members>
-        <members>InMaintenance</members>
-        <members>LightningConnectQuickstart</members>
-        <members>MyProfilePage</members>
-        <members>RRFrontline__FrontlineAgentEmbeddedPage</members>
-        <members>RRFrontline__FrontlineAgentPage</members>
-        <members>RRFrontline__LeaderBoard</members>
-        <members>RRFrontline__RAndRAppConfig</members>
-        <members>RRFrontline__SupervisorDashboardPage</members>
-        <members>RRSdo__PostInstallPage</members>
-        <members>SiteLogin</members>
-        <members>SiteRegister</members>
-        <members>SiteRegisterConfirm</members>
-        <members>SiteTemplate</members>
-        <members>StdExceptionTemplate</members>
-        <members>Unauthorized</members>
-        <members>UnderConstruction</members>
-        <members>th_con_app__ThHomepage</members>
-        <name>ApexPage</name>
+        <members>MyContactList</members>
+        <members>forgotPassword</members>
+        <members>loginForm</members>
+        <members>selfRegister</members>
+        <members>setExpId</members>
+        <members>setStartUrl</members>
+        <name>AuraDefinitionBundle</name>
     </types>
     <version>39.0</version>
 </Package>
