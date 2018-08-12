@@ -4,12 +4,5 @@
         <members></members>
         <name>0</name>
     </types>
-    <types>
-        <members>AccountAddressTrigger</members>
-        <members>ClosedOpportunityTrigger</members>
-        <members>MaintenanceRequest</members>
-        <members>RestrictContactByName</members>
-        <name>ApexTrigger</name>
-    </types>
     <version>39.0</version>
 </Package>
